@@ -1,9 +1,9 @@
 {
   "name": "@botpress/nlu-server",
   "version": "1.0.2",
-  "description": "Botpress Standalone NLU Server",
+  "description": "AsistaBot Standalone NLU Server",
   "main": "./dist/index.js",
-  "author": "Botpress, Inc.",
+  "author": "AsistaBot, Inc.",
   "license": "AGPL-3.0",
   "types": "./src/typings.d.ts",
   "bin": "./dist/index.js",

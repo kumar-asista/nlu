@@ -52,7 +52,7 @@ export const createAPI = async (options: APIOptions, app: Application, baseLogge
   expressApp.use(bodyParser.json({ limit: options.bodySize }))
 
   expressApp.use((req, res, next) => {
-    res.header('X-Powered-By', 'Botpress NLU')
+    res.header('X-Powered-By', 'AsistaBot NLU')
     requestLogger.debug(`incoming ${req.method} ${req.path}`, { ip: req.ip })
     next()
   })

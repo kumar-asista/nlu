@@ -1,8 +1,8 @@
 {
   "name": "@botpress/nlu",
   "version": "1.0.2",
-  "description": "Botpress NLU; Contains all of Botpress NLU related code.",
-  "author": "Botpress, Inc.",
+  "description": "Asista NLU; Contains all of Asista NLU related code.",
+  "author": "Asista",
   "license": "AGPL-3.0",
   "repository": {
     "type": "git",

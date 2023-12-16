@@ -41,7 +41,7 @@ const createExpressApp = (options: APIOptions, baseLogger: Logger): Application 
   app.use(bodyParser.json({ limit: '250kb' }))
 
   app.use((req, res, next) => {
-    res.header('X-Powered-By', 'Botpress')
+    res.header('X-Powered-By', 'AsistaBot')
     requestLogger.debug(`incoming ${req.method} ${req.path}`, { ip: req.ip })
     next()
   })

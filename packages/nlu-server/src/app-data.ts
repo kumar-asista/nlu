@@ -11,6 +11,6 @@ export function getAppDataPath() {
   }
 
   const errorMsg = `Could not determine your HOME directory.
-Please set the environment variable "APP_DATA_PATH", then start Botpress`
+Please set the environment variable "APP_DATA_PATH", then start AsistaBot`
   throw new Error(errorMsg)
 }

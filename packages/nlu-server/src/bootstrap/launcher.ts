@@ -16,7 +16,7 @@ interface LaunchingInfo {
 
 export const logLaunchingMessage = async (info: NLUServerOptions & LaunchingInfo, launcherLogger: Logger) => {
   showBanner({
-    title: 'Botpress Standalone NLU',
+    title: 'AsistaBot Standalone NLU',
     version: info.version,
     buildInfo: info.buildInfo,
     logScopeLength: 9,

@@ -92,7 +92,7 @@ export const run = async (options: ArgV) => {
   }
 
   launcherLogger.info(chalk`========================================
-{bold ${centerText('Botpress Language Server', 40, 9)}}
+{bold ${centerText('AsistaBot Language Server', 40, 9)}}
 {dim ${centerText(`Version ${version}`, 40, 9)}}
 ${_.repeat(' ', 9)}========================================`)
 

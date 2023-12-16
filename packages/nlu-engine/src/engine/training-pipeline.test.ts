@@ -27,10 +27,10 @@ test('tfidf has a value for all tokens of the training set', async () => {
   }
 
   const installBpIntent = makeIntent('install-bp', [
-    'How can I install Botpress?',
-    'Can you help me with Botpress install?'
+    'How can I install AsistaBot?',
+    'Can you help me with AsistaBot install?'
   ])
-  const reportBugIntent = makeIntent('report-bug', ['There seems to be a bug with Botpress...', 'I have a problem'])
+  const reportBugIntent = makeIntent('report-bug', ['There seems to be a bug with AsistaBot...', 'I have a problem'])
 
   const intents: Intent<Utterance>[] = [installBpIntent, reportBugIntent]
 

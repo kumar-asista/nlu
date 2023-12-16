@@ -8,8 +8,8 @@ This repo contains every ML/NLU related code written by Botpress in the NodeJS e
 
 The source code is structured in a mono-repo fashion using yarn workspaces. The `./packages` directory contains all available packages. The main packages are:
 
-- [nlu-server](./packages/nlu-server/readme.md): Contains the Botpress Standalone NLU Server
-- [lang-server](./packages/lang-server/readme.md): Contains the Botpress Language Server
+- [nlu-server](./packages/nlu-server/readme.md): Contains the AsistaBot Standalone NLU Server
+- [lang-server](./packages/lang-server/readme.md): Contains the AsistaBot Language Server
 - [nlu-cli](./packages/nlu-cli/readme.md): Small CLI to use as an entry point for both `nlu-server` and `lang-server`
 
 Check out each individual packages for more details.
